@@ -1,0 +1,45 @@
+.wrapper {
+  margin: 3%;
+}
+
+.dropdownWrapper {
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.inputFilter {
+  border: none;
+  border: solid gray;
+  border-width: 1px;
+}
+
+.inputFilter input{
+  border: none;
+}
+
+.inputFilter input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.dropdownArrow {
+  border: solid gray;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 3px;
+  margin-right: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.option:hover {
+  background-color: rgb(223, 223, 223);
+  cursor: pointer;
+}
+
+.dropdownOptions {
+ border: solid gray;
+ border-width: 0px 1px 1px 1px;
+}
+
